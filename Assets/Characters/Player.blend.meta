@@ -38,6 +38,14 @@ ModelImporter:
     100064: UpperLeg_R
     100066: UpperThumb_L
     100068: UpperThumb_R
+    100070: Hair
+    100072: Helmet
+    100074: Pants
+    100076: Pants_003
+    100078: Platebody
+    100080: Shirt
+    100082: Shoes
+    100084: Skin
     400000: Armature
     400002: Chest
     400004: Cube
@@ -73,17 +81,49 @@ ModelImporter:
     400064: UpperLeg_R
     400066: UpperThumb_L
     400068: UpperThumb_R
+    400070: Hair
+    400072: Helmet
+    400074: Pants
+    400076: Pants_003
+    400078: Platebody
+    400080: Shirt
+    400082: Shoes
+    400084: Skin
     2100000: unnamed
+    2100002: Metal
+    2100004: Metal_dark
+    2100006: Material_003
+    2100008: Underpants
+    2100010: Shoes
+    2100012: Material_001
+    2100014: Pants
+    2100016: Material_002
     2300000: Cube
     3300000: Cube
     4300000: Cube_001
     4300002: Cube
+    4300004: Helmet
+    4300006: Platebody
+    4300008: Pants_003
+    4300010: Hair
+    4300012: Shoes
+    4300014: Shirt
+    4300016: Pants
+    4300018: Skin
     7400000: Default Take
     7400002: Idle
     7400004: Run
     7400006: Walk
     9500000: //RootNode
     13700000: Cube_001
+    13700002: Hair
+    13700004: Helmet
+    13700006: Pants
+    13700008: Pants_003
+    13700010: Platebody
+    13700012: Shirt
+    13700014: Shoes
+    13700016: Skin
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -99,15 +139,19 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Run' has import animation warnings that might
-      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
-      retargeting quality.\n\t'Chest' is inbetween humanoid transforms and has rotation
-      animation that will be discarded.\n\t'LowerLeg_R' has scale animation that will
-      be discarded.\n\t'UpperFeet_R' has scale animation that will be discarded.\n\nClip
-      'Walk' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperFeet_R'
-      has scale animation that will be discarded.\n"
+    animationImportWarnings: "\nClip 'Default Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Chest' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'LowerLeg_R' has scale
+      animation that will be discarded.\n\t'UpperFeet_R' has scale animation that
+      will be discarded.\n\nClip 'Run' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Chest' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'LowerLeg_R' has scale animation that will be discarded.\n\t'UpperFeet_R'
+      has scale animation that will be discarded.\n\nClip 'Walk' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Chest' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

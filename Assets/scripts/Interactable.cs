@@ -9,7 +9,7 @@ public class Interactable : MonoBehaviour {
 
 	public virtual void Interact()
 	{
-		Debug.Log("Interaction");
+		//Debug.Log("Interaction");
 	}
 
 	void Update()
